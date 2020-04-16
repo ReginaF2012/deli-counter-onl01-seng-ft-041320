@@ -11,6 +11,7 @@ def line(array)
     end
   end
   
+<<<<<<< HEAD
 def take_a_number(line, person)
 line << person
 puts "Welcome, #{person}. You are number #{line.index(person)+1} in line."
@@ -24,3 +25,9 @@ def now_serving(line)
     line.shift
    end
 end
+=======
+def take_a_number(array, string)
+array << string
+puts ""
+end
+>>>>>>> cb8e4ed1221873c3de06ee61034e76d004724b76
